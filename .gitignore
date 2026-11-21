@@ -1,0 +1,23 @@
+# secrets and local config
+.env
+.env.*
+*.vars
+*.pem
+*.key
+panel-haslo*.txt
+*password*
+*secret*
+
+# working copies and backups
+*.bak
+*.orig
+*.przed-*
+index.przed-*
+
+# dependencies, build output, logs, OS files
+node_modules/
+dist/
+.wrangler/
+*.log
+.DS_Store
+Thumbs.db
